@@ -18,5 +18,7 @@
 
         <x-nav.NavItemDesktop href='/#kontakt'>Kontakt</x-nav.NavItemDesktop>
         <x-nav.NavItemDesktop href='https://www.booking.com/hotel/pl/willa-pracus.pl.html'>Rezerwuj</x-nav.NavItemDesktop>
+
+        <x-nav.LanguageSwitcher/>
     </ul>
 </nav>

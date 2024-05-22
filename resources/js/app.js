@@ -59,6 +59,8 @@ const openBtn = document.querySelector("#hamburger");
 const closeBtn = document.querySelector("#close");
 const menu = document.querySelector("#menu");
 
+const mobileNavItems = document.querySelectorAll('.nav-mobile-item')
+
 const menuHandler = () => {
     menu.classList.toggle("menu-open");
     menu.classList.toggle("menu-close");
@@ -66,6 +68,10 @@ const menuHandler = () => {
 
 openBtn.addEventListener("click", menuHandler);
 closeBtn.addEventListener("click", menuHandler);
+
+mobileNavItems.forEach(item=>{
+    item.addEventListener('click',menuHandler)
+})
 
 const navbar = document.querySelector("#navbar");
 const marquee = document.querySelector("#marquee");

@@ -3,9 +3,15 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormController;
 
-Route::get('/', function () {
-    return view('index');
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+
+
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
+
+    Route::get('/', function () {
+        return view('index');
+    });
+
+
+    Route::post('/', [FormController::class, 'contact_form'])->name('contact_form');
 });
-
-
-Route::post('/',[FormController::class,'contact_form'])->name('contact_form');

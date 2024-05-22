@@ -27,8 +27,8 @@
 			</div>
 
 			<h1 class='text-5xl sm:text-6xl text-center font-normal text-white px-6 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-				Willa
-				<span class='pt-12 font-extralight ml-3'>tuż przy szlakach górskich!</span>
+				{{__('home.heading-one')}}
+				<span class='pt-12 font-extralight ml-3'>{{__('home.heading-two')}}</span>
 			</h1>
 			<div class='mx-auto px-6 pb-16 absolute bottom-5 left-1/2  transform -translate-x-1/2 '>
 				<a href='https://www.booking.com/hotel/pl/willa-pracus.pl.html' class='link-btn'>
