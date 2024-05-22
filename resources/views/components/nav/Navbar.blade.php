@@ -13,11 +13,11 @@
 
     
     <ul class='hidden lg:flex justify-center items-center gap-12 xl:gap-12 text-white text-lg'>
-        <x-nav.NavItemDesktop href='/#pokoje'>Pokoje</x-nav.NavItemDesktop>
-        <x-nav.NavItemDesktop href='/#okolica'>Okolica</x-nav.NavItemDesktop>
+        <x-nav.NavItemDesktop href='/#pokoje'>{{__('home.header.nav-item-one')}}</x-nav.NavItemDesktop>
+        <x-nav.NavItemDesktop href='/#okolica'>{{__('home.header.nav-item-two')}}</x-nav.NavItemDesktop>
 
-        <x-nav.NavItemDesktop href='/#kontakt'>Kontakt</x-nav.NavItemDesktop>
-        <x-nav.NavItemDesktop href='https://www.booking.com/hotel/pl/willa-pracus.pl.html'>Rezerwuj</x-nav.NavItemDesktop>
+        <x-nav.NavItemDesktop href='/#kontakt'>{{__('home.header.nav-item-three')}}</x-nav.NavItemDesktop>
+        <x-nav.NavItemDesktop href='https://www.booking.com/hotel/pl/willa-pracus.pl.html'>{{__('home.header.nav-item-four')}}</x-nav.NavItemDesktop>
 
         <x-nav.LanguageSwitcher/>
     </ul>

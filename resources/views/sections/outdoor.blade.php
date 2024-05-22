@@ -7,16 +7,14 @@
 
 				<div class='flex flex-col justify-around gap-8 md:gap-16 lg:gap-12 w-full lg:w-[45%]'>
 					<div class='space-y-12'>
-						<h2 class='heading'>Piękna Okolica</h2>
+						<h2 class='heading'>{{__('home.outdoor.title')}}</h2>
 						
 						<p class='text'>
-							 Nasz obiekt znajduje się w malowniczej okolicy Zakopanego, blisko pięknych szlaków górskich. To idealne
-							 miejsce dla miłośników przyrody, którzy cenią sobie spokój i łatwy dostęp do atrakcji turystycznych. 
+							{{__('home.outdoor.text')}} 
 						</p>
 					</div>
 					<p class='text--small'>
- 						Bliskość szlaków górskich oraz niewielka odległość od centrum Zakopanego zapewniają komfortowy wypoczynek.
- 						Goście mogą cieszyć się zarówno urokami natury, jak i atrakcjami miejskimi.</p>
+						{{__('home.outdoor.text-two')}}</p>
 				</div>
 				
 				<div class=' w-full lg:w-[55%] py-6'>

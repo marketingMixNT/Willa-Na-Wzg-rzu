@@ -12,19 +12,15 @@
 
   
     <div class='flex flex-col items-center lg:items-start text-center xl:text-left mx-auto gap-4'>
-        <h2 class='uppercase'>Social Media</h2>
-        <a href='#' target='_blank' class='link-hover'>
-            Instagram
-        </a>
-        <a href='#' target='_blank' class='link-hover'>
-            Facebook
-        </a>
+        <a href="#" class="link-hover"><h2 class='uppercase'>{{__('home.footer.privacy-policy')}}</h2></a
+       
+        <div></div>
     </div>
 
     
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4'>
         <a href='https://maps.app.goo.gl/Ziv89Yi2cS1hckyUA'>
-        <h2 class='uppercase'>Adres</h2>
+        <h2 class='uppercase'>{{__('home.footer.address')}}</h2>
         <a class='link-hover' href='#'>
             Żywczańskie 22c <br />
             34-500 Zakopane
@@ -35,7 +31,7 @@
    
     <div class='flex flex-col items-end '>
         <div class='flex flex-col justify-center xl:justify-start items-center xl:items-start gap-4 '>
-            <h2 class='uppercase'>Kontakt</h2>
+            <h2 class='uppercase'>{{__('home.footer.contact')}}</h2>
             <a class='link-hover' href='mailto:kontakt@willanawzgorzu.pl'>
                 kontakt@willanawzgorzu.pl
             </a>

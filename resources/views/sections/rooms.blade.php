@@ -7,17 +7,13 @@
 
 				<div class='flex flex-col justify-around gap-8 md:gap-16 lg:gap-12 w-full lg:w-[40%]'>
 					<div class='space-y-12'>
-						<h2 class='heading '>Pokoje Gościnne na Wzgórzu</h2>
+						<h2 class='heading '>{{__('home.rooms.title')}}</h2>
 						<p class='text'>
-							Nasze pokoje gościnne wyposażone są w łóżka małżeńskie lub dwa pojedyncze, telewizor z płaskim ekranem
-							oraz zestaw do parzenia kawy i herbaty. W każdym wnętrzu znajduje się stolik z fotelami, idealny do
-							relaksu po górskich wędrówkach. Prywatne łazienki z prysznicem zapewniają komfort i wygodę.
+							{{__('home.rooms.text')}}
 						</p>
 					</div>
 					<p class='text--small'>
-						Na parterze obiektu znajduje się ogólnodostępna, w pełni wyposażona kuchnia, gdzie można przygotować
-						posiłki. Goście mogą również korzystać z salki z dużym telewizorem, idealnej do wspólnego spędzania czasu i
-						relaksu.
+						{{__('home.rooms.text-two')}}
 					</p>
 				</div>
 			

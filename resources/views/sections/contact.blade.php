@@ -14,8 +14,8 @@
         <div class='w-full  lg:w-1/2 flex flex-col  justify-between gap-12 max:gap-32'>
            
             <div>
-                <h2 class='heading'>Napisz do nas</h2>
-                <h3 class='heading'>Z przyjemnością Ci pomożemy</h3>
+                <h2 class='heading'>{{__('home.contact.title')}}</h2>
+                <h3 class='heading'>{{__('home.contact.title-two')}}</h3>
 
 
 
@@ -36,8 +36,8 @@
                 <div id="formContact" class="flex  h-full mt-24">
                     <div class=" flex flex-col gap-4  my-6">
 
-                        <h3 class="text-5xl font-semibold mb-2 ">Dziękujemy za wiadomość!</h3>
-                        <span class="text-xl font-normal">Odezwiemy się najszybciej jak to możliwe</span>
+                        <h3 class="text-5xl font-semibold mb-2 ">{{__('home.contact.success')}}</h3>
+                        <span class="text-xl font-normal">{{__('home.contact.success-two')}}</span>
                     </div>
                 </div>
             @else
@@ -46,15 +46,12 @@
 
                 <form method="POST" action="{{ route('contact_form') }}" id="contactForm"   class='w-full flex flex-col gap-8 2xl:pr-64 mt-12'>
                     @csrf
-                    {{-- <span class={`text-2xl font-bold uppercase ${sendingForm ? '' : 'hidden'}`}>{result}</span> --}}
-
-                
-
+                    
                     <input
                         type='text'
                         name='name'
                         id='name'
-                        placeholder='Imię i nazwisko'
+                        placeholder='{{__('home.contact.name')}}'
                         class='w-full border-secondary border rounded-full border-dashed  px-4 py-3 outline-none focus:border-solid'
                     />
 
@@ -63,7 +60,7 @@
                         id='email'
                         name='email'
                         name='Adres Email'
-                        placeholder='Adres email'
+                        placeholder='{{__('home.contact.email')}}'
                         class='w-full border-secondary border rounded-full border-dashed px-4 py-3 outline-none focus:border-solid'
                     />
 
@@ -73,10 +70,10 @@
                         cols='30'
                         rows='6'
                         class='w-full border-secondary border rounded-3xl border-dashed px-4 py-4 outline-none focus:border-solid'
-                        placeholder='Wiadomość'></textarea>
+                        placeholder='{{__('home.contact.message')}}'></textarea>
 
                     <button type='submit' class='btn-submit'>
-                        Wyślij
+                        {{__('home.contact.submit')}}
                     </button>
                 </form>
                 @endif

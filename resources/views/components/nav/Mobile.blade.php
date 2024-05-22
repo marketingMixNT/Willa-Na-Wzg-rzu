@@ -26,21 +26,21 @@
 
     <ul class='flex flex-col justify-center  w-full text-3xl font-extralight text-white  '>
         <x-nav.NavItemMobile href='/#pokoje'>
-            Pokoje
+            {{__('home.header.nav-item-one')}}
         </x-nav.NavItemMobile>
         <x-nav.NavItemMobile href='/#okolica'>
-            Okolica
+            {{__('home.header.nav-item-two')}}
         </x-nav.NavItemMobile>
 
         <x-nav.NavItemMobile href='/#kontakt'>
-            Kontakt
+            {{__('home.header.nav-item-three')}}
         </x-nav.NavItemMobile>
     </ul>
 
 
     <div class='mb-4 mx-auto px-6 '>
         <a href='https://www.booking.com/hotel/pl/willa-pracus.pl.html' class='link-btn'>
-            Zarezerwuj
+            {{__('home.header.nav-item-four')}}
         </a>
     </div>
 </div>
