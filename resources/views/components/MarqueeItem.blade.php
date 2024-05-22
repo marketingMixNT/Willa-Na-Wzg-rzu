@@ -1,0 +1,1 @@
+<span className='mr-16'>{{$slot}}</span>
