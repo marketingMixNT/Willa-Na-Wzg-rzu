@@ -1,4 +1,4 @@
-<button class='lg:hidden' aria-label='otwórz menu' id='hamburger' >
+<button type="button" class='lg:hidden' aria-label='otwórz menu' id='hamburger' >
     <img src='/icons/hamburger.svg' alt='' width='48' height='48' class='w-12' />
 </button>
 
@@ -13,13 +13,13 @@
             <x-nav.LanguageSwitcher/>
         </div>
         
-        <button class='self-end' aria-label='zamknij menu' id="close">
+        <button type="button" class='self-end' aria-label='zamknij menu' id="close">
             <img src='/icons/close.svg' alt='' width='24' height='24' class=' w-6' />
         </button>
     </div>
 
-    <a href='/'>
-        <img src="/logo--white.png" alt="" class='w-40 md:w-64' />
+    <a href='{{route('home')}}'>
+        <img src="{{asset('logo--white.png')}}" alt="logo Willa na Wzgórzu w Zakopanym" width="160" height="111" class='w-40 md:w-64' />
     </a>
 
 

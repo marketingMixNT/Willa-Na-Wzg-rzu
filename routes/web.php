@@ -10,8 +10,12 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
     Route::get('/', function () {
         return view('index');
-    });
+    })->name('home');;
 
 
     Route::post('/', [FormController::class, 'contact_form'])->name('contact_form');
+
+    Route::get('/polityka-prywatnosci', function () {
+        return view('privacy-policy');
+    })->name('privacy_policy');
 });

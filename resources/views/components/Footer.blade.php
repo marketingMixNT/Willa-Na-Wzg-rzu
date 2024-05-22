@@ -4,27 +4,27 @@
     <div class='col-span-1'>
         <div class='relative flex items-center justify-center max:pl-12'>
             
-            <a href="/" class='flex justify-center items-center'>
-                <img src='/logo--white.png' alt='' class=' w-[150px] xl:w-[200px]  max:w-[300px]  ' />
+            <a href="{{route('home')}}" class='flex justify-center items-center'>
+                <img src='{{asset('logo--white.png')}}' alt='logo Willa na Wzgórzu w Zakopanym' class=' w-[150px] xl:w-[200px]  max:w-[300px]' width="300" height="209" />
             </a>
         </div>
     </div>
 
   
     <div class='flex flex-col items-center lg:items-start text-center xl:text-left mx-auto gap-4'>
-        <a href="#" class="link-hover"><h2 class='uppercase'>{{__('home.footer.privacy-policy')}}</h2></a
+        <a href="{{route('privacy_policy')}}" class="link-hover"><h2 class='uppercase'>{{__('home.footer.privacy-policy')}}</h2></a
        
         <div></div>
     </div>
 
     
     <div class='flex flex-col  text-center xl:text-left mx-auto gap-4'>
-        <a href='https://maps.app.goo.gl/Ziv89Yi2cS1hckyUA'>
+        <a href='https://maps.app.goo.gl/Ziv89Yi2cS1hckyUA' class="link-hover">
         <h2 class='uppercase'>{{__('home.footer.address')}}</h2>
-        <a class='link-hover' href='#'>
+        
             Żywczańskie 22c <br />
             34-500 Zakopane
-        </a>
+       
         </a>
     </div>
 

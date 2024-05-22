@@ -1,6 +1,9 @@
 <header
-			class="flex flex-col justify-between w-screen h-[95vh] md:h-screen bg-[url('/public/img/willa_na_wzgorzu-7.jpg')] bg-no-repeat bg-cover bg-top bg-fixed bg-blend-multiply bg-gray-300 relative">
+			class="flex flex-col justify-between w-screen h-screen  bg-blend-multiply bg-gray-300 relative">
+			<img src="{{asset('img/willa_na_wzgorzu-7.jpg')}}" alt="widok z góry na Willa na Wzgórzu w Zakopanym" class="w=full h-full object-cover object-top" >
+
 			<div class="fixed top-0 left-0 right-0  z-50 duration-500" id="navbar">
+				
 				
 				<div id="marquee" class='border-b py-3 text-xs text-white flex flex-col gap-20'>
 					<span class="mr-6">{{__('home.header.marquee-one')}}</span>

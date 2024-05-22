@@ -19,7 +19,7 @@
 			
 				<div class=' w-full lg:w-[60%] py-6'>
 					<img
-						src='/img/willa_na_wzgorzu-51.jpg'
+						src='{{asset('img/willa_na_wzgorzu-51.jpg')}}'
 						alt='wnętrze pokoju w Willa na Wzgórzu w Zakopanym'
 						width='1280'
 						height='780'

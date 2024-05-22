@@ -4,10 +4,13 @@
       
         <div class='w-full lg:w-1/2 '>
             <img
-                src='/img/willa_na_wzgorzu-10.jpg'
+                src='{{asset('img/willa_na_wzgorzu-10.jpg')}}'
                 alt='wnętrze Willa na Wzgórzu w Zakopanym'
                 loading='lazy'
                 class='h-full max-h-[400px] sm:max-h-[500px] lg:min-h-[600px] 2xl:min-h-[800px] max:min-h-[1000px] w-full object-cover lg:pr-24 max:px-24'
+
+            width="1067"
+            height="1000"
             />
         </div>
     
@@ -72,7 +75,7 @@
                         class='w-full border-secondary border rounded-3xl border-dashed px-4 py-4 outline-none focus:border-solid'
                         placeholder='{{__('home.contact.message')}}'></textarea>
 
-                    <button type='submit' class='btn-submit'>
+                    <button type='submit' class='btn-submit' aria-label="Wyślij">
                         {{__('home.contact.submit')}}
                     </button>
                 </form>
@@ -87,30 +90,30 @@
                     <a href='https://instagram.com' target='_blank' class=' w-full  sm:w-1/3 h-[250px] max:h-[300px]'>
                         <img
                             src='/img/willa_na_wzgorzu-37.jpg'
-                            alt=''
+                            alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                             class='w-full h-full object-cover'
-                            height={300}
-                            width={300}
+                            height='300'
+                            width='300'
                             loading='lazy'
                         />
                     </a>
                     <a href='https://instagram.com' target='_blank' class=' w-full sm:w-1/3 h-[250px] max:h-[300px]'>
                         <img
                             src='/img/willa_na_wzgorzu-5.jpg'
-                            alt=''
+                            alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                             class='w-full h-full object-cover'
-                            height={300}
-                            width={300}
+                            height='300'
+                            width='300'
                             loading='lazy'
                         />
                     </a>
                     <a href='https://instagram.com' target='_blank' class=' w-full sm:w-1/3 h-[250px] max:h-[300px]'>
                         <img
                             src='/img/willa_na_wzgorzu-41.jpg'
-                            alt=''
+                            alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                             class='w-full h-full object-cover'
-                            height={300}
-                            width={300}
+                            height='300'
+                            width='300'
                             loading='lazy'
                         />
                     </a>
@@ -130,30 +133,30 @@
             <a href='https://instagram.com' target='_blank' class=' w-full  sm:w-1/3 h-[300px]'>
                 <img
                     src='/img/willa_na_wzgorzu-37.jpg'
-                    alt=''
+                    alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                     class='w-full h-full object-cover'
-                    height={300}
-                    width={300}
+                    height='300'
+                    width='300'
                     loading='lazy'
                 />
             </a>
             <a href='https://instagram.com' target='_blank' class=' w-full sm:w-1/3 h-[300px]'>
                 <img
                     src='/img/willa_na_wzgorzu-5.jpg'
-                    alt=''
+                    alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                     class='w-full h-full object-cover'
-                    height={300}
-                    width={300}
+                    height='300'
+                    width='300'
                     loading='lazy'
                 />
             </a>
             <a href='https://instagram.com' target='_blank' class=' w-full sm:w-1/3 h-[300px]'>
                 <img
                     src='/img/willa_na_wzgorzu-41.jpg'
-                    alt=''
+                    alt='zdjęcie Willa na Wzgórzu w Zakopanym'
                     class='w-full h-full object-cover'
-                    height={300}
-                    width={300}
+                    height='300'
+                    width='300'
                     loading='lazy'
                 />
             </a>

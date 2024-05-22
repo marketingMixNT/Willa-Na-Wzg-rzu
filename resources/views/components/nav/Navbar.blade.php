@@ -1,7 +1,7 @@
 <nav class='  flex justify-between px-4 sm:px-12 xl:px-16 py-4 duration-500 z-50 '>
     
-    <a href='/' class='text-3xl font-light text-white mt-1 lg:mt-0 flex justify-center items-center gap-2'>
-    <img src='/logo--navbar.png' class='w-12 hidden sm:block ' /><span>
+    <a href='{{route('home')}}' class='text-3xl font-light text-white mt-1 lg:mt-0 flex justify-center items-center gap-2'>
+    <img src='{{asset('logo--navbar.png')}}' class='w-12 hidden sm:block ' width="48" height="36" /><span>
 
 
         Willa <span class=' ml-2 font-light'>na <span class='ml-2'>Wzgórzu</span></span> </span>
